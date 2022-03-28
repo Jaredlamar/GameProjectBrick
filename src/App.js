@@ -1,35 +1,16 @@
 
 import Header from './components/Header';
 import Game from './components/Game';
-import './App.css';
-import { useRef } from 'react';
+import React, { useRef, useEffect, useState, useContext } from 'react';
 
 
 function App() {
+ return (
+  <div>
+    <Game />
+  </div>
 
-  useEffect( () => {
-
-  
-  },[])
-
-  const soemthing = useRef(null)
-  
-  const startDrawing = () => {
-
-  }
-  const finishDrawing =() => {
-      
-  }
-
-  return (
-    <div className="App">
-      <Header />
-      <Game 
-        onMouseDown={startDrawing}
-        onMouseUp={finishDrawing}
-        />
-    </div>
-  );
+ )
 }
 
 export default App;
