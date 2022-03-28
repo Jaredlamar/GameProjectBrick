@@ -3,13 +3,6 @@ import '../App.css';
 
 function Game() {
 
-    const startDrawing = () => {
-
-    }
-
-    const finishDraeing =() => {
-        
-    }
 
     return (
         <div>

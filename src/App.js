@@ -13,6 +13,7 @@ function App() {
   },[])
 
   const soemthing = useRef(null)
+  
   const startDrawing = () => {
 
   }
